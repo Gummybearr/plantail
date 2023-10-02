@@ -1,5 +1,6 @@
 # v1
-![plantail_architecture_v1](https://github.com/Gummybearr/plantail/assets/41829700/db4ba70a-e970-40a2-9bf7-c6902a55a10f)
+![plantail_architecture_v1](https://github.com/Gummybearr/plantail/assets/41829700/c71ad280-fdc1-4661-a775-51748e7d17a6)
+
 
 
 Requirements
