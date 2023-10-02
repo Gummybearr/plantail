@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2023-10-02T09:18:16.271Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Mz8qmzbNgTS6Pn9wA4__" version="22.0.0" type="device">
+  <diagram name="Page-1" id="B-EC9gWSZarUmYaPILmp">
+    <mxGraphModel dx="1594" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tcLVqC1S7n5Et6TPnXvn-1" target="tcLVqC1S7n5Et6TPnXvn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tcLVqC1S7n5Et6TPnXvn-1" target="tcLVqC1S7n5Et6TPnXvn-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-1" value="mobile device" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="320" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tcLVqC1S7n5Et6TPnXvn-3" target="tcLVqC1S7n5Et6TPnXvn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-3" value="AWS API Gateway" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="335" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-4" value="Local Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tcLVqC1S7n5Et6TPnXvn-1" target="tcLVqC1S7n5Et6TPnXvn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="130" width="550" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-8" value="VPC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-9" value="AWS DynamoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="985" y="448" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tcLVqC1S7n5Et6TPnXvn-10" target="tcLVqC1S7n5Et6TPnXvn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tcLVqC1S7n5Et6TPnXvn-10" target="tcLVqC1S7n5Et6TPnXvn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tcLVqC1S7n5Et6TPnXvn-10" target="tcLVqC1S7n5Et6TPnXvn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-10" value="AWS Lambda" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/flutter-icon-1651x2048-ojswpayr.png;" vertex="1" parent="1">
+          <mxGeometry x="21.80000000000001" y="437.79" width="56.41" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_go_gopher_icon_130571.png;" vertex="1" parent="1">
+          <mxGeometry x="429" y="415" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-15" value="AWS RDS Proxy" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="335" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-16" value="AWS VPC Endpoint" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-17" value="AWS VPC Endpoint" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-19" value="AWS RDS&lt;br&gt;Mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="815" y="335" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tcLVqC1S7n5Et6TPnXvn-15" target="tcLVqC1S7n5Et6TPnXvn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-24" value="AWS Secrets Manager" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="985" y="180" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/aws-api-gateway-icon-423x512-70e4i3mi.png;" vertex="1" parent="1">
+          <mxGeometry x="216.99" y="250" width="59.49" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tcLVqC1S7n5Et6TPnXvn-17" target="tcLVqC1S7n5Et6TPnXvn-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-27" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/aws-dynamodb-icon-1817x2048-1gi0rqbm.png;" vertex="1" parent="1">
+          <mxGeometry x="1006.25" y="373" width="57.5" height="64.79" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-28" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://bitrise-steplib-collection.s3.amazonaws.com/steps/aws-secrets-manager/assets/icon.svg;" vertex="1" parent="1">
+          <mxGeometry x="1006.25" y="100" width="66" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-29" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://global-uploads.webflow.com/5f8b0a1abe69652278dad51c/62607c5d5a80e46fad041878_e59d46eb.png;" vertex="1" parent="1">
+          <mxGeometry x="825" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-30" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/compute-amazonvpc-endpoints-icon-491x512-s5tqap9p.png;" vertex="1" parent="1">
+          <mxGeometry x="555.9499999999999" y="140" width="69.05" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-31" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:450/1*W4RGK13yMMnepARVOXS1Gg.png;" vertex="1" parent="1">
+          <mxGeometry x="590" y="280" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-32" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="450" y="265" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="tcLVqC1S7n5Et6TPnXvn-16" target="tcLVqC1S7n5Et6TPnXvn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-34" value="AWS S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="985" y="640" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-35" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/amazon-s3-simple-storage-service.svg;" vertex="1" parent="1">
+          <mxGeometry x="1002.25" y="560" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-38" value="AWS&amp;nbsp;API Gateway" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tcLVqC1S7n5Et6TPnXvn-38" target="tcLVqC1S7n5Et6TPnXvn-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcLVqC1S7n5Et6TPnXvn-41" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/A/aws-cloudfront-logo-D475098A98-seeklogo.com.png;" vertex="1" parent="1">
+          <mxGeometry x="215" y="555" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
