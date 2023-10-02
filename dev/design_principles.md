@@ -4,7 +4,7 @@ User should be able to understand use an application without having to read a ma
 
 # 2. Simple
 
-The design should not be obtrusive, since it exists provide users with a clear and easy understanding of the application.
+The design should not be obtrusive, since it exists to provide users with a clear and easy understanding of the application.
 
 # 3. Consistent
 
