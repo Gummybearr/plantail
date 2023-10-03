@@ -22,6 +22,11 @@
 # v1.2.1
 1. toggle to show score or rank in my info
 
+# v1.2.2
+1. remove calendar button and show calendar when user presses date text
+2. add experimental feature page
+3. make users to choose to put task checkbox on right or left for one-hand control
+
 --- 
 > we are currently here
 --- 
