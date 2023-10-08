@@ -27,18 +27,21 @@
 2. add experimental feature page
 3. make users to choose to put task checkbox on right or left for one-hand control
 
+# v1.3.0
+1. summarize my day using generative ai
+
 --- 
 > we are currently here
 --- 
 
-# v1.3.0
+# v1.4.0
 1. show off my info using deep link
 
-# 1.3.1
+# 1.5.0
 1. change my profile pic
 2. change pic for tasks on first tab
 
-# v1.4.0
+# v1.6.0
 1. open 2nd tab to show monthly calendar
 
 ---
