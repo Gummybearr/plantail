@@ -40,7 +40,7 @@
 # v1.4.0
 1. show off my info using deep link
 
-# 1.5.0
+# v1.5.0
 1. change my profile pic
 2. change pic for tasks on first tab
 
