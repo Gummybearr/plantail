@@ -30,6 +30,9 @@
 # v1.3.0
 1. summarize my day using generative ai
 
+# v1.3.1
+1. support 3x2 widget for Android
+   
 --- 
 > we are currently here
 --- 
