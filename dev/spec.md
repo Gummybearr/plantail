@@ -33,19 +33,22 @@
 
 # v1.3.1
 1. support 3x2 widget for Android
+
+# v1.4.0
+1. use can crud diary on specific day
    
 --- 
 > we are currently here
 --- 
 
-# v1.4.0
+# v1.5.0
 1. show off my info using deep link
 
-# v1.5.0
+# v1.6.0
 1. change my profile pic
 2. change pic for tasks on first tab
 
-# v1.6.0
+# v1.7.0
 1. open 2nd tab to show monthly calendar
 
 ---
