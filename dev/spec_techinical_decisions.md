@@ -57,3 +57,8 @@ One thing to notice here is that we only use access token that is available for 
 1. toggle to show score or rank in my info
 ```
 ```
+
+# v1.3.0
+1. summarize my day using generative ai
+```
+```
