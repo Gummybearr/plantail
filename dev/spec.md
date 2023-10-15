@@ -36,19 +36,22 @@
 
 # v1.4.0
 1. use can crud diary on specific day
-   
+
+# v1.5.0
+1. use social login(Google)
+
+# v1.6.0
+1. share link to other users
+
 --- 
 > we are currently here
 --- 
 
-# v1.5.0
-1. show off my info using deep link
-
-# v1.6.0
+# v1.7.0
 1. change my profile pic
 2. change pic for tasks on first tab
 
-# v1.7.0
+# v1.8.0
 1. open 2nd tab to show monthly calendar
 
 ---
