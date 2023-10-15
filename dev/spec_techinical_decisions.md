@@ -62,3 +62,23 @@ One thing to notice here is that we only use access token that is available for 
 1. summarize my day using generative ai
 ```
 ```
+
+# v1.3.1
+1. support 3x2 widget for Android
+```
+```
+
+# v1.4.0
+1. use can crud diary on specific day
+```
+```
+
+# v1.5.0
+1. use social login(Google)
+```
+```
+
+# v1.6.0
+1. share link to other users
+```
+```
