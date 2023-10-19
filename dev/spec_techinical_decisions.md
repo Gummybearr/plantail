@@ -10,9 +10,9 @@ reference: https://www.youtube.com/watch?v=zt8Cocdy15c
 
 
 2. signup(email, pw, nickname)
-```
 
-```
+Signing up with email and password is one of the most widely used method of creating a user. Since password is a private and personal data that should be secretly handled and encrypted in a way that user given plain text should not be retrived, we store encrypted hash instead. The password is encrypted in one-way, bcrypt algorithm to be specific, with a salt that is unique for each users. This way, users can be assured that they are the only ones who can infer the password since modern computers won't be able to guess it in their lifetime. 
+
 
 # v1.0.1
 1. auto signin
@@ -25,8 +25,9 @@ One thing to notice here is that we only use access token that is available for 
 
 # v1.1.0
 1. create non-repeating task
-```
-```
+
+The first feature of PlanTail is creating a simple todo list. System generates a "task", a unit of todo list, when task name, start time and end time is given as input
+
 2. create repeating task
 ```
 ```

@@ -47,12 +47,18 @@
 > we are currently here
 --- 
 
+# v1.6.1
+1. make users select day | day of month when creating repetitive tasks.
+
 # v1.7.0
-1. change my profile pic
-2. change pic for tasks on first tab
+1. add alarm | push for tasks if user specified time
 
 # v1.8.0
 1. open 2nd tab to show monthly calendar
+
+# v1.9.0
+1. change my profile pic
+2. change pic for tasks on first tab
 
 ---
 > not fixed from here
