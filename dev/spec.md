@@ -43,12 +43,12 @@
 # v1.6.0
 1. share link to other users
 
+# v1.6.1
+1. make users select day | day of month when creating repetitive tasks.
+
 --- 
 > we are currently here
 --- 
-
-# v1.6.1
-1. make users select day | day of month when creating repetitive tasks.
 
 # v1.7.0
 1. add alarm | push for tasks if user specified time
