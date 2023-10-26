@@ -46,12 +46,12 @@
 # v1.6.1
 1. make users select day | day of month when creating repetitive tasks.
 
+# v1.7.0
+1. add push for tasks
+
 --- 
 > we are currently here
 --- 
-
-# v1.7.0
-1. add alarm | push for tasks if user specified time
 
 # v1.8.0
 1. open 2nd tab to show monthly calendar
