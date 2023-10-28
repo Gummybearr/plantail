@@ -49,14 +49,17 @@
 # v1.7.0
 1. add push for tasks
 
+# v1.8.0
+1. add a reward that is triggered when a user completes all tasks of the day.
+
 --- 
 > we are currently here
 --- 
 
-# v1.8.0
+# v1.9.0
 1. open 2nd tab to show monthly calendar
 
-# v1.9.0
+# v1.10.0
 1. change my profile pic
 2. change pic for tasks on first tab
 
