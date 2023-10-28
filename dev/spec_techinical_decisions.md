@@ -83,3 +83,18 @@ The first feature of PlanTail is creating a simple todo list. System generates a
 1. share link to other users
 ```
 ```
+
+# v1.6.1
+1. make users select day | day of month when creating repetitive tasks.
+```
+```
+
+# v1.7.0
+1. add push for tasks
+```
+```
+
+# v1.8.0
+1. add a reward that is triggered when a user completes all tasks of the day.
+```
+```
