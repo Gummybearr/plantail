@@ -69,7 +69,7 @@
 # v1.11.0
 1. open monthly task calendar
 
-# v1.12.0
+# v2.0.0
 1. add rank board on third tab
 
 ---
