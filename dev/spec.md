@@ -52,12 +52,15 @@
 # v1.8.0
 1. add a reward that is triggered when a user completes all tasks of the day.
 
+# v1.9.0
+1. open weekly task calendar
+
+# v1.9.1
+1. tab any day in week to open daily calendar
+   
 --- 
 > we are currently here
 --- 
-
-# v1.9.0
-1. open 2nd tab to show monthly calendar
 
 # v1.10.0
 1. change my profile pic
