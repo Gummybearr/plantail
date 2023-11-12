@@ -63,8 +63,14 @@
 --- 
 
 # v1.10.0
-1. change my profile pic
-2. change pic for tasks on first tab
+1. generate daily task image
+2. share generated daily task image
+
+# v1.11.0
+1. open monthly task calendar
+
+# v1.12.0
+1. add rank board on third tab
 
 ---
 > not fixed from here
