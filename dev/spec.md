@@ -57,14 +57,14 @@
 
 # v1.9.1
 1. tab any day in week to open daily calendar
-   
---- 
-> we are currently here
---- 
 
 # v1.10.0
 1. generate daily task image
 2. share generated daily task image
+   
+--- 
+> we are currently here
+--- 
 
 # v1.11.0
 1. open monthly task calendar
