@@ -26,13 +26,67 @@ One thing to notice here is that we only use access token that is available for 
 # v1.1.0
 1. create non-repeating task
 
-The first feature of PlanTail is creating a simple todo list. System generates a "task", a unit of todo list, when task name, start time and end time is given as input
+The first feature of PlanTail is creating a simple todo list. System generates a "task", a unit of todo list, when task name, start time and end time is given as input.
+
+When a user creates a task, it is stored in MySQL(RDS). Considering the unexpectency of business development and ability to cope with diverse diverse access patterns, RDBMS was chosen as the main database.   
+
+reference: https://www.datastax.com/ko/blog/relational-vs-nosql-when-should-I-use-one-over-the-other
 
 2. create repeating task
+
+Unlike non-repeating tasks, repeating tasks must be presented to the user on multiple occasions without creating redundant data entries. To achieve this, the "Task" entity's schema is modified.
+
+The "repeat unit" field is an enumerated type that can be set to "Day," "Week," or "Month." The "repeat_schedule" field indicates how often the task is repeated within the specified repeat unit. For instance, if the repeat unit is "Week," the repeat schedule can range from 1000000, which means the task is repeated every Sunday, to 1111111, which means the task is repeated daily. An interesting decision made for the "Task" schema was to avoid using bitwise operations for the "repeat_schedule" field to enhance column readability. While 32 bytes consume more storage space than 4 bytes, the representation 0000111 is undoubtedly easier to comprehend than the single number 7.
+
+```sql
+CREATE TABLE `task` (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `user_id` bigint NOT NULL,
+  `name` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `start_at` int NOT NULL,
+  `end_at` int NOT NULL,
+  `max_streak` int NOT NULL,
+  `current_streak` int NOT NULL,
+  `repeat_unit` varchar(8) NOT NULL,
+  `repeat_count` int NOT NULL,
+  `created_at` bigint NOT NULL,
+  `updated_at` bigint NOT NULL,
+  `repeat_schedule` varchar(32) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`),
+  KEY `ix_userid_startat_endat_repeatunit` (`user_id`,`start_at`,`end_at`,`repeat_unit`),
+  KEY `ix_userid_startat_repeatunit` (`user_id`,`start_at`,`repeat_unit`),
+  KEY `ix_userid_endat_repeatunit` (`user_id`,`end_at`,`repeat_unit`)
+) ENGINE=InnoDB AUTO_INCREMENT=497 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;;
 ```
-```
+
 3. query tasks of day
-```
+
+Querying tasks of a specific day is straightforward using the pseudo-code. 
+
+```go 
+func QueryTask(request QueryTaskRequest) QueryTaskResponse {
+	// query user
+	var user domain.User  = query user by id
+
+	// query unRepeating tasks
+	var unRepeatingTasks []domain.Task
+	mySqlConnection.Table(infra.TaskTable).Where("user_id = ?", request.UserId).Where("start_at = ?", request.Date).Where("repeat_unit = ?", domain.NEVER).Find(&unRepeatingTasks)
+
+	// query repeating tasks
+	var repeatingTasks []domain.Task
+	mySqlConnection.Table(infra.TaskTable).Where("user_id = ?", request.UserId).Where("start_at <= ?", request.Date).Where("end_at >= ?", request.Date).Where("repeat_unit != ?", domain.NEVER).Find(&repeatingTasks)
+	repeatingTasks = lo.Filter(repeatingTasks, func(task domain.Task, _ int) bool {
+		return task.IsIncludedInDatetime(request.Date)
+	})
+
+	// merge unRepeatingTasks and repeatingTasks
+	var totalTasks []domain.Task
+	totalTasks = append(totalTasks, unRepeatingTasks...)
+	totalTasks = append(totalTasks, repeatingTasks...)
+
+    // map tasks to dto and then return
+    return ...
+}
 ```
 4. update task
 ```
