@@ -43,22 +43,34 @@
 # v1.6.0
 1. share link to other users
 
---- 
-> we are currently here
---- 
-
 # v1.6.1
 1. make users select day | day of month when creating repetitive tasks.
 
 # v1.7.0
-1. add alarm | push for tasks if user specified time
+1. add push for tasks
 
 # v1.8.0
-1. open 2nd tab to show monthly calendar
+1. add a reward that is triggered when a user completes all tasks of the day.
 
 # v1.9.0
-1. change my profile pic
-2. change pic for tasks on first tab
+1. open weekly task calendar
+
+# v1.9.1
+1. tab any day in week to open daily calendar
+
+# v1.10.0
+1. generate daily task image
+2. share generated daily task image
+   
+--- 
+> we are currently here
+--- 
+
+# v1.11.0
+1. open monthly task calendar
+
+# v2.0.0
+1. add rank board on third tab
 
 ---
 > not fixed from here
