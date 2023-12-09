@@ -152,3 +152,35 @@ func QueryTask(request QueryTaskRequest) QueryTaskResponse {
 1. add a reward that is triggered when a user completes all tasks of the day.
 ```
 ```
+
+# v1.9.0
+1. open weekly task calendar
+```
+```
+
+# v1.9.1
+1. tab any day in week to open daily calendar
+```
+```
+
+# v1.10.0
+1. generate daily task image
+```
+```
+2. share generated daily task image
+```
+```
+
+# v1.11.0
+1. open social tab
+```
+```
+2. add leaderboard in social tab
+```
+```
+3. add user info query modal in social tab
+```
+```
+4. add friend task page in social tab
+```
+```

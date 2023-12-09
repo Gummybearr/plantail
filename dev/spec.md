@@ -61,16 +61,19 @@
 # v1.10.0
 1. generate daily task image
 2. share generated daily task image
+
+# v1.11.0
+1. open social tab
+2. add leaderboard in social tab
+3. add user info query modal in social tab
+4. add friend task page in social tab
    
 --- 
 > we are currently here
 --- 
 
-# v1.11.0
+# v1.12.0
 1. open monthly task calendar
-
-# v2.0.0
-1. add rank board on third tab
 
 ---
 > not fixed from here
