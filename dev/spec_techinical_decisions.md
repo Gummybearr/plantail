@@ -89,16 +89,41 @@ func QueryTask(request QueryTaskRequest) QueryTaskResponse {
 }
 ```
 4. update task
-```
-```
+
+In this app, making changes to an existing task is straightforward, assuming you've already created one. You can edit the task's name and choose whether it repeats regularly. If it does, you can even set its frequency and when it should be shown to you.
+
 5. delete task
-```
-```
+
+While deleting tasks, PlanTail currently employs the simpler "hard delete" method. This means tasks are permanently removed from the system. However, the preferred approach is "soft delete," where tasks are hidden instead of erased. This offers protection against accidental deletion and allows for easier recovery in case of mistakes. Though not currently implemented, soft delete is likely a more robust solution for future versions of PlanTail.
+
+reference: https://docs.sourcegraph.com/dev/background-information/postgresql#:~:text=Hard%20deletes%20are%20hard%20to,once%20you%20determine%20what%20happened.
 
 # v1.1.1
 1. success task
+
+In PlanTail, marking a task as complete takes center stage. To achieve this, the app creates a new entry in the "log table." This simple yet effective approach allows the system to effortlessly determine if a task is done by simply checking if a log entry exists for that specific task and date.
+
+Schema of the log table is as follows
+
+```sql
+CREATE TABLE `task_complete_history` (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `user_id` bigint NOT NULL,
+  `task_id` bigint NOT NULL,
+  `completed_at` bigint NOT NULL,
+  `score` int NOT NULL,
+  `created_at` bigint NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `ix_userid_completedat` (`user_id`,`completed_at`) USING BTREE,
+  KEY `ix_completedat_userid` (`completed_at`,`user_id`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=1164 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;;
 ```
-```
+
+
+While traditional databases enforce data consistency through "foreign key" constraints, PlanTail takes a different approach. Instead of relying on the database, the app itself verifies data integrity by implementing a "logical foreign key" system. This means the application code actively checks if referenced entities exist, ensuring data consistency without introducing performance issues or potential deadlocks that might arise from foreign key constraints. While foreign keys are valuable for domains requiring high data consistency, PlanTail's chosen method offers a balance between performance and data integrity.
+
+reference: https://softwareengineering.stackexchange.com/questions/375704/why-should-i-use-foreign-keys-in-database
+
 2. calculate score
 ```
 ```
