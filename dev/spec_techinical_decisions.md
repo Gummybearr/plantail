@@ -125,8 +125,10 @@ While traditional databases enforce data consistency through "foreign key" const
 reference: https://softwareengineering.stackexchange.com/questions/375704/why-should-i-use-foreign-keys-in-database
 
 2. calculate score
-```
-```
+
+PlanTell uses a point-based system to motivate users to complete tasks. The points are calculated based on a variety of factors, including the number of schedules completed and the number of consecutive successes. The scoring formula is designed to make the initial rate of point increase feel steep and then gradually slow down. This is intended to create a sense of accomplishment and progress as users complete more tasks. The non-linear scoring algorithm was inspired by the Elo rating system.
+
+reference: https://en.wikipedia.org/wiki/Elo_rating_system
 
 # v1.2.0
 1. view my info

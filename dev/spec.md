@@ -20,6 +20,7 @@
 1. view my info
 
 # v1.2.1
+`Android launch`
 1. toggle to show score or rank in my info
 
 # v1.2.2
@@ -38,6 +39,7 @@
 1. use can crud diary on specific day
 
 # v1.5.0
+`Web intro page launch`
 1. use social login(Google)
 
 # v1.6.0
@@ -67,6 +69,12 @@
 2. add leaderboard in social tab
 3. add user info query modal in social tab
 4. add friend task page in social tab
+
+# v1.11.1
+1. add friend request in social tab
+2. query friend request
+3. show friend request with alert 
+4. accept/deny friend request
    
 --- 
 > we are currently here
@@ -74,6 +82,10 @@
 
 # v1.12.0
 1. open monthly task calendar
+
+# v1.13.0
+`iOS launch`
+
 
 ---
 > not fixed from here
