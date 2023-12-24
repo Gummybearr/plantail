@@ -75,15 +75,19 @@
 2. query friend request
 3. show friend request with alert 
 4. accept/deny friend request
-   
---- 
-> we are currently here
---- 
 
 # v1.12.0
 1. open monthly task calendar
 
 # v1.13.0
+1. open emoji reaction to tasks
+2. open poke to users
+
+--- 
+> we are currently here
+--- 
+
+# v1.14.0
 `iOS launch`
 
 
