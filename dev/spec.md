@@ -87,8 +87,13 @@
 1. enable local notification to listen to fcm messages
 2. users can view emojis friends received
 
+# v1.13.2
+1. enable apple login
+2. enable push noti for ios
+3. expand emoji list that user can send to friends
+
 # v1.14.0
-1. launch iOS app
+`launch iOS app`
 
 # v1.15.0
 1. add alarm
