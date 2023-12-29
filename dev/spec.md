@@ -83,13 +83,19 @@
 1. open emoji reaction to tasks
 2. open poke to users
 
+# v1.13.1
+1. enable local notification to listen to fcm messages
+2. users can view emojis friends received
+
+# v1.14.0
+1. launch iOS app
+
 --- 
 > we are currently here
 --- 
 
-# v1.14.0
-`iOS launch`
-
+# v1.15.0
+1. add alarm
 
 ---
 > not fixed from here

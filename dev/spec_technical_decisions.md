@@ -132,13 +132,15 @@ reference: https://en.wikipedia.org/wiki/Elo_rating_system
 
 # v1.2.0
 1. view my info
-```
-```
+
+My info page is a personal control center. Users can view their nickname, sleek profile pic, and even choose to display their score or rank.
+
+Users are free to log out at any time. If users want everything gone, they can delete their accounts. Account deletion requires either user's secret password or Oauth2.0 token to prevent unauthorized access.
 
 # v1.2.1
 1. toggle to show score or rank in my info
-```
-```
+
+This update adopts an animated toggle when user toggles to display their score or rank.
 
 # v1.3.0
 1. summarize my day using generative ai
@@ -209,5 +211,45 @@ reference: https://en.wikipedia.org/wiki/Elo_rating_system
 ```
 ```
 4. add friend task page in social tab
+```
+```
+
+# v1.11.1
+1. add friend request in social tab
+```
+```
+2. query friend request
+```
+```
+3. show friend request with alert 
+```
+```
+4. accept/deny friend request
+```
+```
+
+# v1.12.0
+1. open monthly task calendar
+```
+```
+
+# v1.13.0
+1. open emoji reaction to tasks
+```
+```
+2. open poke to users
+```
+```
+
+# v1.13.1
+1. enable local notification to listen to fcm messages
+```
+```
+2. users can view emojis friends received
+```
+```
+
+# v1.14.0
+1. launch iOS app
 ```
 ```
