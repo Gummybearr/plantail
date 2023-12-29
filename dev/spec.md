@@ -90,13 +90,10 @@
 # v1.14.0
 1. launch iOS app
 
+# v1.15.0
+1. add alarm
+   
 --- 
 > we are currently here
 --- 
 
-# v1.15.0
-1. add alarm
-
----
-> not fixed from here
---- 
