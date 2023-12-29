@@ -93,7 +93,7 @@
 3. expand emoji list that user can send to friends
 
 # v1.14.0
-`launch iOS app`
+`iOS launch`
 
 # v1.15.0
 1. add alarm
