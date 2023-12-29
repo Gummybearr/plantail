@@ -1,6 +1,7 @@
 # Plantail
 
 ![playstore_plantail](https://github.com/Gummybearr/plantail/assets/41829700/f932fcb6-8e9d-4a07-9a2f-f7b5a7193773)
+![appstore plantail](https://github.com/Gummybearr/plantail/assets/41829700/d97b4360-a92b-46d0-87cc-94343fad59b9)
 
 ## 앱 설명
 
@@ -52,9 +53,12 @@ plantail.dev@gmail.com으로 자유롭게 문의해주세요!
 플랜테일은 일정관리를 구성하는 게임적 요소들을 시각화한 서비스입니다. 우리가 퀘스트를 완료하면 경험치를 얻는 것과 같이 플랜테일의 이용자들은 일정을 완료하면서 점수를 획득하고, 이를 한눈에 볼 수 있습니다. 플랜테일과 함께하는 날들이 인생이라는 거대한 게임을 즐기는 또 하나의 방법이 되기를 바랍니다. 
 
 
-
 ## 앱을 다운로드해보세요!
 
 <a href="https://play.google.com/store/apps/details?id=com.plantail.client">
-  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="323" height="125">
+  <img src="https://github.com/Gummybearr/plantail/assets/41829700/74a3b4d9-9f98-4403-ab56-868aa82ef6fd" width="323">
+</a>
+
+<a href="https://apps.apple.com/kr/app/%ED%94%8C%EB%9E%9C%ED%85%8C%EC%9D%BC/id6475001612">
+  <img src="https://github.com/Gummybearr/plantail/assets/41829700/858b912a-7576-48a4-a45f-c4ab8def0da3" width="323">
 </a>
