@@ -74,6 +74,6 @@ plantail.dev@gmail.com으로 자유롭게 문의해주세요!
   <img src="https://tncs.org/wp-content/uploads/Instagram-Icon.png" width="50">
 </a>
 
-<a href="https://www.instagram.com/plantail.official">
+<a href="https://twitter.com/plantail_dev">
   <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.png" width="50">
 </a>
