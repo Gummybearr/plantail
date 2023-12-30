@@ -71,9 +71,13 @@ plantail.dev@gmail.com으로 자유롭게 문의해주세요!
 ## Follow us
 
 <a href="https://www.instagram.com/plantail.official">
-  <img src="https://tncs.org/wp-content/uploads/Instagram-Icon.png" width="50">
+  <img src="https://tncs.org/wp-content/uploads/Instagram-Icon.png" height="50">
 </a>
 
 <a href="https://twitter.com/plantail_dev">
-  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.png" width="50">
+  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.png" height="50">
+</a>
+
+<a href="https://www.youtube.com/channel/UCQpW1ZoRiOYK692bP4mpg5g">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png?20220706172052g" height="50">
 </a>
