@@ -106,15 +106,18 @@
 > we are currently here
 
 # v1.16.1
-1. add yearly calendar
+1. open specific page when clicking push
 
 # v1.16.2
-1. add monthly goal push noti
+1. add yearly calendar
 
 # v1.16.3
+1. add monthly goal push noti
+
+# v1.16.4
 1. add monthly task+goal comment
 --- 
 
-# v1.17.0
+# v1.18.0
 1. re-launch home screen widgets for Android
 
