@@ -104,6 +104,7 @@
 
 # v1.16.1
 1. users can now complete monthly goal
+2. add score deduct logic
 
 --- 
 > we are currently here
