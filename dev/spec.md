@@ -106,14 +106,14 @@
 1. users can now complete monthly goal
 2. add score deduct logic
 
+# v1.16.2
+1. add yearly calendar
+
 --- 
 > we are currently here
 
-# v1.16.2
-1. open specific page when clicking push
-
 # v1.16.3
-1. add yearly calendar
+1. open specific page when clicking push
 
 # v1.16.4
 1. add monthly goal push noti
