@@ -66,3 +66,18 @@ plantail.dev@gmail.com으로 자유롭게 문의해주세요!
 <a href="https://apps.apple.com/kr/app/%ED%94%8C%EB%9E%9C%ED%85%8C%EC%9D%BC/id6475001612">
   <img src="https://github.com/Gummybearr/plantail/assets/41829700/858b912a-7576-48a4-a45f-c4ab8def0da3" width="323">
 </a>
+
+
+## Follow us
+
+<a href="https://www.instagram.com/plantail.official">
+  <img src="https://tncs.org/wp-content/uploads/Instagram-Icon.png" height="50">
+</a>
+
+<a href="https://twitter.com/plantail_dev">
+  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.png" height="50">
+</a>
+
+<a href="https://www.youtube.com/channel/UCQpW1ZoRiOYK692bP4mpg5g">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png?20220706172052g" height="50">
+</a>

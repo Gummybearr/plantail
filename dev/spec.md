@@ -97,8 +97,34 @@
 
 # v1.15.0
 1. add alarm
-   
+
+# v1.16.0
+1. add monthly goal crud
+2. deprecate weekly calandar
+
+# v1.16.1
+1. users can now complete monthly goal
+2. add score deduct logic
+
+# v1.16.2
+1. add yearly calendar
+
 --- 
 > we are currently here
+
+# v1.16.3
+1. open specific page when clicking push
+
+# v1.16.4
+1. add monthly goal push noti
+
+# v1.16.5
+1. add monthly task+goal comment
+
 --- 
 
+# v1.17.0
+1. show holiday or special day on month view
+
+# v1.18.0
+1. re-launch home screen widgets for Android
