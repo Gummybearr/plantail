@@ -120,8 +120,11 @@
 
 # v1.16.5
 1. add monthly task+goal comment
+
 --- 
 
 # v1.17.0
-1. re-launch home screen widgets for Android
+1. show holiday or special day on month view
 
+# v1.18.0
+1. re-launch home screen widgets for Android
