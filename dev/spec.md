@@ -113,16 +113,23 @@
 1. enhance screen speed
 2. recommend task to users
 
+# v1.16.4
+1. fix appstore review stuck issue
+
+# 1.16.5
+1. add note to task
+2. add N-day interval task
+   
 --- 
 > we are currently here
 
-# v1.16.4
+# v1.16.6
 1. open specific page when clicking push
 
-# v1.16.5
+# v1.16.7
 1. add monthly goal push noti
 
-# v1.16.6
+# v1.16.8
 1. add monthly task+goal comment
 
 --- 
