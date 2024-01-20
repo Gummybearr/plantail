@@ -119,23 +119,30 @@
 # 1.16.5
 1. add note to task
 2. add N-day interval task
+
+# 1.16.6
+1. add color to goal
+2. use goal color on goal progress bar
    
 --- 
 > we are currently here
 
-# v1.16.6
+# v1.16.7
 1. open specific page when clicking push
 
-# v1.16.7
+# v1.16.8
 1. add monthly goal push noti
 
-# v1.16.8
+# v1.16.9
 1. add monthly task+goal comment
 
 --- 
 
 # v1.17.0
-1. show holiday or special day on month view
+1. link task and goal
 
 # v1.18.0
+1. show holiday or special day on month view
+
+# v1.19.0
 1. re-launch home screen widgets for Android
