@@ -123,23 +123,29 @@
 # 1.16.6
 1. add color to goal
 2. use goal color on goal progress bar
+
+# v1.17.0
+1. link task and goal
+
+# v1.17.1
+1. fix delete account bug for users with social login
+
+# v1.17.2
+1. add Crashlytics on client
+2. add Senty on server
    
 --- 
 > we are currently here
 
-# v1.16.7
+# v1.17.3
 1. open specific page when clicking push
 
-# v1.16.8
+# v1.17.4
 1. add monthly goal push noti
 
-# v1.16.9
+# v1.17.5
 1. add monthly task+goal comment
-
 --- 
-
-# v1.17.0
-1. link task and goal
 
 # v1.18.0
 1. show holiday or special day on month view
