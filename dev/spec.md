@@ -137,16 +137,19 @@
 # v1.17.3
 1. fix app exception when context is disposed on App client
 
+# v1.17.4
+1. drag and drop tasks on month level view
+
 --- 
 > we are currently here
 
-# v1.17.4
+# v1.17.5
 1. open specific page when clicking push
 
-# v1.17.5
+# v1.17.6
 1. add monthly goal push noti
 
-# v1.17.6
+# v1.17.7
 1. add monthly task+goal comment
 --- 
 
