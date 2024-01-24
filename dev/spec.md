@@ -133,17 +133,20 @@
 # v1.17.2
 1. add Crashlytics on client
 2. add Senty on server
-   
+
+# v1.17.3
+1. fix app exception when context is disposed on App client
+
 --- 
 > we are currently here
 
-# v1.17.3
+# v1.17.4
 1. open specific page when clicking push
 
-# v1.17.4
+# v1.17.5
 1. add monthly goal push noti
 
-# v1.17.5
+# v1.17.6
 1. add monthly task+goal comment
 --- 
 
