@@ -3,6 +3,16 @@
 ![playstore_plantail](https://github.com/Gummybearr/plantail/assets/41829700/f932fcb6-8e9d-4a07-9a2f-f7b5a7193773)
 ![appstore plantail](https://github.com/Gummybearr/plantail/assets/41829700/d97b4360-a92b-46d0-87cc-94343fad59b9)
 
+## 앱을 다운로드해보세요!
+
+<a href="https://play.google.com/store/apps/details?id=com.plantail.client">
+  <img src="https://github.com/Gummybearr/plantail/assets/41829700/74a3b4d9-9f98-4403-ab56-868aa82ef6fd" width="323">
+</a>
+
+<a href="https://apps.apple.com/kr/app/%ED%94%8C%EB%9E%9C%ED%85%8C%EC%9D%BC/id6475001612">
+  <img src="https://github.com/Gummybearr/plantail/assets/41829700/858b912a-7576-48a4-a45f-c4ab8def0da3" width="323">
+</a>
+
 ## 앱 설명
 
 간단한 투두리스트부터 나만의 루틴까지!
@@ -38,16 +48,6 @@
 플랜테일을 이용하며 궁금한 점이 있으신가요?
 plantail.dev@gmail.com으로 자유롭게 문의해주세요!
 
-## v1.4.0 스크린샷
-
-<img src="https://github.com/Gummybearr/plantail/assets/41829700/c8caecfb-3971-407e-b372-dfee96bd1974" width="200" height="440">
-
-<img src="https://github.com/Gummybearr/plantail/assets/41829700/b76207b6-85b4-41da-91c9-d62c065e766c" width="200" height="440">
-
-<img src="https://github.com/Gummybearr/plantail/assets/41829700/912f43a5-6147-432a-82e6-b4eb719e76d7" width="200" height="440">
-
-<img src="https://github.com/Gummybearr/plantail/assets/41829700/edccaabf-7ba9-4885-beeb-8725c20fa10d" width="200" height="440">
-
 ## 철학
 
 인생은 하나의 거대한 게임과 같습니다. 가끔은 예상하지 못한 행운을 마주하기도 하고 가끔은 까다로운 무언가 때문에 진땀을 흘리기도 하죠. 시간이라는 플레이타임동안 우리가 내리는 결정들로 인해 많은 것들이 달라질수 있다는 점이 재미있기도 하고 두렵기도 합니다. 
@@ -55,17 +55,6 @@ plantail.dev@gmail.com으로 자유롭게 문의해주세요!
 일정관리 또한 이러한 시각으로 볼때 게임과 많이 닮아있습니다. 하루하루는 명시적이거나 그렇지 않은 "일정"들로 구성이 되어있고 이는 마치 게임에 존재하는 퀘스트와 유사합니다. 어떠한 퀘스트든 완료하면 경험치를 획득하는데요, 이는 우리가 일정을 완료했을때 성취감이나 숙련도를 얻게 되는 것과 비슷합니다.
 
 플랜테일은 일정관리를 구성하는 게임적 요소들을 시각화한 서비스입니다. 우리가 퀘스트를 완료하면 경험치를 얻는 것과 같이 플랜테일의 이용자들은 일정을 완료하면서 점수를 획득하고, 이를 한눈에 볼 수 있습니다. 플랜테일과 함께하는 날들이 인생이라는 거대한 게임을 즐기는 또 하나의 방법이 되기를 바랍니다. 
-
-
-## 앱을 다운로드해보세요!
-
-<a href="https://play.google.com/store/apps/details?id=com.plantail.client">
-  <img src="https://github.com/Gummybearr/plantail/assets/41829700/74a3b4d9-9f98-4403-ab56-868aa82ef6fd" width="323">
-</a>
-
-<a href="https://apps.apple.com/kr/app/%ED%94%8C%EB%9E%9C%ED%85%8C%EC%9D%BC/id6475001612">
-  <img src="https://github.com/Gummybearr/plantail/assets/41829700/858b912a-7576-48a4-a45f-c4ab8def0da3" width="323">
-</a>
 
 
 ## Follow us
