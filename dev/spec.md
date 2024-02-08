@@ -140,21 +140,27 @@
 # v1.17.4
 1. drag and drop tasks on month level view
 
+# v1.17.5
+1. differentiate completed goals from the others in task & goal link
+
+# v1.17.6
+1. add d-day counting
+
 --- 
 > we are currently here
 
-# v1.17.5
+# v1.18.0
 1. open specific page when clicking push
 
-# v1.17.6
+# v1.18.1
 1. add monthly goal push noti
 
-# v1.17.7
+# v1.18.2
 1. add monthly task+goal comment
 --- 
 
-# v1.18.0
+# v1.19.0
 1. show holiday or special day on month view
 
-# v1.19.0
+# v1.20.0
 1. re-launch home screen widgets for Android
