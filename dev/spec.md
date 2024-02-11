@@ -146,11 +146,11 @@
 # v1.17.6
 1. add d-day counting
 
---- 
-> we are currently here
-
 # v1.18.0
 1. open specific page when clicking push
+
+--- 
+> we are currently here
 
 # v1.18.1
 1. add monthly goal push noti
