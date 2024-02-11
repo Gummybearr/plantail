@@ -149,14 +149,15 @@
 # v1.18.0
 1. open specific page when clicking push
 
+# v1.18.1
+1. add monthly task+goal comment
+2. decorate new achievements user unlocked
+   
 --- 
 > we are currently here
 
-# v1.18.1
-1. add monthly goal push noti
-
 # v1.18.2
-1. add monthly task+goal comment
+1. add monthly goal push noti
 --- 
 
 # v1.19.0
