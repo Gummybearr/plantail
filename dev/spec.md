@@ -152,11 +152,14 @@
 # v1.18.1
 1. add monthly task+goal comment
 2. decorate new achievements user unlocked
+
+# v1.18.2
+1. add achievement dictionary
    
 --- 
 > we are currently here
 
-# v1.18.2
+# v1.18.3
 1. add monthly goal push noti
 --- 
 
