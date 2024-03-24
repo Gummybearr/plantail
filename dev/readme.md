@@ -52,6 +52,9 @@ Scheduling is a lot like a game when you look at it this way. Each day is organi
 
 Planeteer is a service that visualizes the game-like elements that make up a calendar. Just as we earn experience points for completing quests, Planeteer users earn points for completing tasks and can see them at a glance. We hope your days with Plantail will be just another way to play the big game that is life. 
 
+## App preview
+
+![appstore plantail](https://github.com/Gummybearr/plantail/assets/41829700/d97b4360-a92b-46d0-87cc-94343fad59b9)
 
 ## Follow us
 
