@@ -15,7 +15,7 @@ From simple to-do lists to personalized routines!
 Grow with the app as you complete your schedule!
 Get started with a schedule that feels like a game.
 
-Here are the features of PlanTale!
+Here are the features of PlanTail!
 
 📒You can organize your schedule by type!
 - Register non-recurring events with just a name and date
